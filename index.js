@@ -1,11 +1,11 @@
 // Handle Button Clicks
 function changeBackgroundColor() {
   const colors = [
-    "rgb(255, 0, 0)",
-    "rgb(0, 255, 0)",
-    "rgb(0, 0, 255)",
-    "rgb(255, 255, 0)",
-    "rgb(173, 216, 230)"
+    "rgb(147, 87, 87)",
+    "rgb(61, 149, 61)",
+    "rgb(31, 31, 148)",
+    "rgb(170, 170, 58)",
+    "rgb(77, 117, 130)"
   ];
 
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
@@ -22,10 +22,10 @@ function resetBackgroundColor() {
 
 // Capture Keyboard Input
 
-function displayKeyPress(event) {
-  const keyDisplay = document.getElementById("keyPressDisplay");
+// function displayKeyPress(event) {
+//   const keyDisplay = document.getElementById("keyPressDisplay");
 
-}
+// }
 
 
 // Process Text Input
